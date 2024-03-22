@@ -41,7 +41,7 @@
 
 ## Contribution Guide
 
-  **_Steps to collaborate on the repository for team members._**
+  **_Steps to collaborate on the repository ._**
 
 ### Cloning Repo
 
@@ -131,8 +131,8 @@ lib
 
 ├─ ui
 
--     Here each feature of this project will be create folder which would contain the view and viewmodel of each feature.  
--     Note: On no account should viewmodels know about eachother. Every View should have its viewmodel. e.g. home/home_view && home_viewmodel.                 
+-     Here each feature of this project will be create folder which would contain the view and controller and binding of each feature.  
+-     Note: On no account should viewmodels know about eachother. Every controller should have its coontroller. e.g. home && home_controller.                 
 
 │  └─ shared
 │     ├─ dumb_widgets
