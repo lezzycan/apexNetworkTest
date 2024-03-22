@@ -46,7 +46,7 @@ LoginRes? loginRes;
           Navigator.pop(context);
           Get.toNamed(RouterHelper.loginScreen);
           loadingSuccessful(null);
-           RetrofitClientInstance.getInstance().setToken(loginRes?.data?.token);
+          
         })
         .catchError((err) {
       loadingFailed(err, context);
