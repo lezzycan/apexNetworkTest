@@ -17,7 +17,7 @@
 ## Hosted App Link
 
    _N.B Once there is a stable build, it would be hosted on playstore and appstore and the link would be appended_
-   [Here]()
+   [Here](https://appetize.io/app/ydjlhthsmjmll64zdklc3fakv4)
 
 ## Code Style
 
