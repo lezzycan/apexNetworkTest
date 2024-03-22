@@ -1,0 +1,70 @@
+name: apex
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+#--------------------------------- PACKAGES ----------------------#
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+ #---------Utility Packages ---------#
+  confetti: ^0.7.0
+  country_picker: ^2.0.25
+  cupertino_icons: ^1.0.6
+  flutter_animate: ^4.5.0
+  dio: ^5.4.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  get: ^4.6.6
+  flutter_easyloading: ^3.0.5
+  smooth_page_indicator: ^1.1.0
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.10+1
+  fluttertoast: ^8.2.4 
+  scratcher: ^2.5.0 
+  pin_code_fields: ^8.0.1
+  retrofit: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  retrofit_generator: ^8.1.0 
+  build_runner: any
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/images/pngs/
+    - assets/images/svgs/
+    - assets/images/jpg/
+  
+
+  
+
+ 
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Black.ttf
+        - asset: assets/fonts/sf-pro-text-bold.ttf
+        - asset: assets/fonts/sf-pro-text-medium.ttf
+        - asset:  assets/fonts/sf-pro-text-regular.ttf
+        - asset:  assets/fonts/sf-pro-text-semibold.ttf
+
+  
